@@ -1,0 +1,143 @@
+body{
+    background-color: #f0f2f5;
+    margin-left:10px;
+    z-index: 0;
+}
+#fbimg {
+    background-color: #f0f2f5;
+}
+#info{
+    padding-left: 30%;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+#fcbook{
+    margin-left: 20px;
+    margin-top:auto;
+    margin-bottom: auto;
+    line-height: 0px;
+    vertical-align: top;
+}
+.fbhelp{
+    font-size: 26px;
+    text-align: left;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#textblock{
+    margin: auto;
+    width: 420px;
+}
+#left{
+    margin:20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+}
+#right{
+    margin-top: 10%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+}
+#maininf{
+    margin: auto;
+}
+
+#background{
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #f8f8ff;
+    width: 400px;
+    height: 350px;
+}
+.input{
+    margin-top: auto ;
+}
+.inp{
+    background-color:rgb(255, 255, 255);
+    width: 364px;
+    height: 52px;
+    margin:10px;
+    border-radius: 6px;
+    padding: 0px 6px;
+    border-color:lavender;
+    border-width: 1px;
+}
+#butn1{
+    width: 378px;
+    height: 52px;
+    margin: 10px;
+    border-radius: 6px;
+    padding:0px 6px;
+    color: white;
+    font: 20px Helvetica, Arial, sens-serif;
+    background-color:#1877F2;
+    border-width: 0px;
+}
+#butn2{
+    width: 220px;
+    height: 52px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 10px 90px 0px 90px;
+    border-radius: 6px;
+    background-color: #42B72A;
+    color: #ffffff;
+    border-width: 0px;
+}
+#forg{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#1877F2;
+}
+input::placeholder{
+    font-size: 17px;
+    color:#797979b7;
+}
+#line{
+    border-color: black;
+    border-width: 2px;
+}
+#create{
+    margin:auto;
+    width: 378px;
+    text-align: center;
+    margin-top: 28px;
+}
+#famous{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    bottom: 0px;
+    display:inline-block;
+}
+li{
+    float:left;
+}
+a{
+    display: block;
+    color:slategray;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.copyright {
+    color: #999;
+}
