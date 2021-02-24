@@ -6,8 +6,8 @@ let box = document.querySelector('#box');
 let input = document.querySelector('.todo_input');
 let btn = document.querySelector('.btn');
 
-var listItems = document.getElementById("box").getElementsByTagName("li");
-var removeButton = document.getElementById("btn_rem");
+const listItems = document.getElementById("box").getElementsByTagName("li");
+const removeButton = document.getElementById("btn_rem");
 
 console.log();
 
@@ -23,11 +23,11 @@ function addElement(){
 
     input.value = "";
 }
-removeButton.addEventListener("click", removeItem);
+removeButton.addEventListener("click", removeElement);
 
 function removeElement(){
     if(listItems.length === 0) return;
 
-    var last = listItems[listItems.length - 1];
+    const last = listItems[listItems.length - 1];
     last.parentNode.removeChild(last)}
 
